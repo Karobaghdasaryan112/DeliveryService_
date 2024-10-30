@@ -1,0 +1,103 @@
+[
+{
+  "_inModel": {
+    "Weight": 4.8,
+    "CityDistrict": "Ufa"
+  },
+  "_outModel": {
+    "GetOrders": []
+  }
+},
+{
+  "_inModel": {
+    "Weight": 4.8,
+    "CityDistrict": "Ufa"
+  },
+  "_outModel": {
+    "GetOrders": [
+      {
+        "OrderNumber": "d3b4a8c5-7d1f-4c8b-95f2-4b3e9d6a1c5e/2023-11-13T09:30:00/Ufa",
+        "CityDistrict": "Ufa",
+        "DeliveryDateTime": "2023-11-13T09:30:00",
+        "Weight": 4.8
+      }
+    ]
+  }
+},
+{
+  "_inModel": {
+    "OldOrder": {
+      "OrderNumber": "d3b4a8c5-7d1f-4c8b-95f2-4b3e9d6a1c5e/2023-11-13T09:30:00/Ufa",
+      "CityDistrict": "Ufa",
+      "DeliveryDateTime": "2023-11-13T09:30:00",
+      "Weight": 4.8
+    }
+  },
+  "_outModel": {
+    "OldAndNewOrders": [
+      {
+        "OrderNumber": "d3b4a8c5-7d1f-4c8b-95f2-4b3e9d6a1c5e/2023-11-13T09:30:00/Ufa",
+        "CityDistrict": "Ufa",
+        "DeliveryDateTime": "2023-11-13T09:30:00",
+        "Weight": 4.8
+      },
+      {
+        "OrderNumber": "d3b4a8c5-7d1f-4c8b-95f2-4b3e9d6a1c5e/2023-11-13T09:30:00/Ufa",
+        "CityDistrict": "ffff",
+        "DeliveryDateTime": "2024-10-30T13:31:07.6460509+04:00",
+        "Weight": 3
+      }
+    ]
+  }
+},
+{
+  "_inModel": {
+    "CityDistrict": "MyRaion",
+    "Weight": 4.5
+  },
+  "_outModel": {
+    "CreatingOrder": {
+      "CityDistrict": "MyRaion",
+      "DeliveryDateTime": "2024-10-30T13:40:36.96561+04:00",
+      "Weight": 4.5
+    }
+  }
+},
+{
+  "_inModel": {
+    "CityDistrict": "MyRaion",
+    "Weight": 2
+  },
+  "_outModel": {
+    "CreatingOrder": {
+      "OrderNumber": "c2c369a2-7b86-436e-a747-c93f8791beec/0001-01-01T00:00:00/",
+      "CityDistrict": "MyRaion",
+      "DeliveryDateTime": "2024-10-30T13:41:54.129579+04:00",
+      "Weight": 2
+    }
+  }
+},
+{
+  "_inModel": {
+    "CityDistrict": "Ufa"
+  },
+  "_outModel": {
+    "GetOrders": []
+  }
+},
+{
+  "_inModel": {
+    "Weight": 4.5
+  },
+  "_outModel": {
+    "GetOrders": [
+      {
+        "OrderNumber": "09c39c32-1321-4f2d-94a6-4a91f3b8a7f1/2022-05-17T14:15:00/Lakeside",
+        "CityDistrict": "Lakeside",
+        "DeliveryDateTime": "2022-05-17T14:15:00",
+        "Weight": 4.5
+      }
+    ]
+  }
+}
+]
